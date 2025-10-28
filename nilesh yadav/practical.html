@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hostel Room Booking Form</title>
+</head>
+<body>
+  <h1>Hostel Room Booking Form</h1>
+
+  <form action="#" method="post">
+    <fieldset>
+      <legend>Personal Information</legend>
+
+      <label for="fullname">Full Name:</label><br>
+      <input type="text" id="fullname" name="fullname" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="phone">Phone Number:</label><br>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="10-digit number" required><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Booking Details</legend>
+
+      <label for="roomType">Room Type:</label><br>
+      <select id="roomType" name="roomType" required>
+        <option value="">--Select Room Type--</option>
+        <option value="single">Single Room</option>
+        <option value="double">Double Sharing</option>
+        <option value="triple">Triple Sharing</option>
+      </select><br><br>
+
+      <label for="checkin">Check-in Date:</label><br>
+      <input type="date" id="checkin" name="checkin" required><br><br>
+
+      <label for="checkout">Check-out Date:</label><br>
+      <input type="date" id="checkout" name="checkout" required><br><br>
+
+      <label for="remarks">Remarks (optional):</label><br>
+      <textarea id="remarks" name="remarks" rows="4" cols="40" placeholder="Any special requests..."></textarea><br><br>
+    </fieldset>
+
+    <input type="submit" value="Book Now">
+    <input type="reset" value="Clear Form">
+  </form>
+</body>
+</html>
