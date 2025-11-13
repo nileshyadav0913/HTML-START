@@ -1,0 +1,57 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+    background-color: beige;
+}
+
+
+.productdetails{
+
+   padding: 15px;
+    width: 300px;
+    background-color: rgb(0, 225, 255);
+    border: 2px solid grey ;
+    margin:  auto;
+
+    border-radius: 4%;
+
+
+}
+
+
+.cart{
+
+    background-color: blueviolet;
+    color: white;
+    width: 200px;
+    height: 35px;
+    border-radius:10px ;
+
+
+}
+
+
+.price{
+
+    color: red;
+
+}
+
+
+.product-image{
+
+
+
+    background-image: url("HP\ ZBook\ Power\ 15\ G8\ Workstation-1024x1024.png");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+
+.cart:hover{
+
+
+
+    background-color: burlywood;
+}
