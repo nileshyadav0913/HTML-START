@@ -1,0 +1,31 @@
+body{
+    Font-family:'Georia',serif;
+mrgine:20px;
+}
+.container{
+    border:2px solid black;
+    display:flex;
+    justify-content:cnter;
+    align-items:
+}
+.card{
+    background-color: white;
+    width:220;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border: 2px solid blue;
+}
+.circle{
+    background-color: blue;
+    color: wheat;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70;
+    line-height: 70px;
+    margin: 0 auto 15 px;
+}
+h3

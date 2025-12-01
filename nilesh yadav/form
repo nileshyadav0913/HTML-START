@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> HTML FORM </title>
+    </head>
+    <body>
+        <h1>registation form</h1>
+        <form method="post" action = "#">
+            
